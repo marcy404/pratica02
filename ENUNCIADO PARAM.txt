@@ -1,0 +1,17 @@
+Exercício de fixação do @Param():
+
+Faça um método @Get() utilizando dois Params, um que recebe um ID e o outro que recebe um tipo de pokemon
+
+Esse método @Get() deve retornar para o usuário todos os pokemons do tipo informado, até o ID também especificado pelo user
+
+Exemplo:
+Vamos supor que, no postman, o seguinte URL seja informado:
+	https://localhost:3002/filtro-pokemon/108/grass
+
+o método @Get() com os dois parâmetros deve buscar todos os pokemons do tipo grama que tem até o ID 108 na base de dados, e retornar todos os pokemons encontrados para o usuário.
+
+As estruturas que já estão codadas podem ser usadas como base para a função que você for criar...
+
+
+Boas codagens! ;)
+Qualquer coisa, só me chamar!
